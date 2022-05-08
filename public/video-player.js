@@ -1,6 +1,7 @@
 var player = videojs('videoPlayer', {
     controls: true,   
-    autoplay: 'muted'
+    autoplay: 'muted',
+    fluid: true,
 });
 var currentVideo = 0;
 var videos = new Array("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4","http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"); //("BigBuck.m4v","Video.mp4","BigBuck.m4v","Video2.mp4");
